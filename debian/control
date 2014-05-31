@@ -1,0 +1,23 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: anon-torchat
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git
+Homepage: https://github.com/Whonix/anon-torchat
+Vcs-Browser: https://github.com/Whonix/anon-torchat
+Vcs-Git: https://github.com/Whonix/anon-torchat.git
+Standards-Version: 3.9.4
+
+Package: anon-torchat
+Architecture: all
+Depends: sudo, ${misc:Depends}
+Description: /home/user/.torchat/torchat.ini for Anonymity Distribution Workstations
+ TorChat config file for user "user" in /home/user/.torchat/torchat.ini which
+ prevents Tor over Tor.
+ .
+ See also:
+ https://tor.stackexchange.com/questions/427/is-running-tor-over-tor-dangerous
