@@ -1,6 +1,6 @@
-# /home/user/.torchat/torchat.ini for Anonymity Distribution Workstations #
+# /etc/skel/.torchat/torchat.ini for Anonymity Distribution Workstations #
 
-TorChat config file for user "user" in /home/user/.torchat/torchat.ini which
+TorChat config file /etc/skel/.torchat/torchat.ini which
 prevents Tor over Tor.
 
 See also:

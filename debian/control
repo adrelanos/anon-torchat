@@ -15,8 +15,8 @@ Standards-Version: 3.9.6
 Package: anon-torchat
 Architecture: all
 Depends: sudo, ${misc:Depends}
-Description: /home/user/.torchat/torchat.ini for Anonymity Distribution Workstations
- TorChat config file for user "user" in /home/user/.torchat/torchat.ini which
+Description: /etc/skel/.torchat/torchat.ini for Anonymity Distribution Workstations
+ TorChat config file /etc/skel/.torchat/torchat.ini which
  prevents Tor over Tor.
  .
  See also:
